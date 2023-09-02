@@ -1,0 +1,26 @@
+{
+  "identifier": "chat-plugin-template",
+  "version": "1",
+  "api": [
+    {
+      "url": "https://template.chat-plugin.lobehub.com/api/v1",
+      "name": "hello",
+      "description": "问候用户，当用户说出 hello plugin 后，将会调用该方法，并将结果返回给用户",
+      "parameters": {
+        "properties": {
+          "city": {
+            "description": "城市名称",
+            "type": "string"
+          }
+        },
+        "required": [
+          "city"
+        ],
+        "type": "object"
+      }
+    }
+  ],
+  "ui": {
+    "url": "https://registry.npmmirror.com/@lobehub/chat-plugin-template/latest/files"
+  }
+}

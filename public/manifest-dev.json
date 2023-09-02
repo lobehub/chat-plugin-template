@@ -1,0 +1,27 @@
+{
+  "identifier": "chat-plugin-template",
+  "version": "1",
+  "api": [
+    {
+      "url": "http://localhost:3400/api/v1",
+      "name": "greetUser",
+      "description": "当用户说出 hello 后，你需要问候用户，并祝他开心",
+      "parameters": {
+        "properties": {
+          "nickname": {
+            "description": "用户的名字，例如：张三 等",
+            "type": "string"
+          }
+        },
+        "required": [
+          "nickname"
+        ],
+        "type": "object"
+      }
+    }
+  ],
+  "gateway": "http://localhost:3400/api/gateway",
+  "ui": {
+
+  }
+}
