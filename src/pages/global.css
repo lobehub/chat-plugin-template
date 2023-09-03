@@ -1,0 +1,6 @@
+html,
+body {
+  background: transparent !important;
+  /*使用 iframe 嵌入时，如果在暗色模式下仍需要保持透明背景，需要强制设定 color-scheme 为 light  */
+  color-scheme: light !important;
+}

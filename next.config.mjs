@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
-  crossOrigin: 'anonymous',
+  transpilePackages: ['@lobehub/ui'],
   async headers() {
     return [
       {

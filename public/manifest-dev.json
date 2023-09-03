@@ -14,7 +14,7 @@
           "gender": {
             "type": "string",
             "enum": ["man", "woman"],
-            "description": "用户的性别"
+            "description": "对话用户的性别，需要询问用户后才知道这个信息"
           }
         },
         "required": ["mood", "gender"],
