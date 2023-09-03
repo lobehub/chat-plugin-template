@@ -1,8 +1,14 @@
-export interface WeatherParams {
-  city: string;
-  extensions?: 'base' | 'all';
+export interface ClothesItem {
+  description: string;
+  name: string;
+}
+export interface ResponseData {
+  clothes: ClothesItem[];
+  mood: string;
+  today: number;
 }
 
-export type ResponseResult = {
-  hello: string;
-};
+export interface RequestData {
+  gender: 'man' | 'woman';
+  mood: string;
+}

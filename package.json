@@ -35,11 +35,14 @@
     "not ie <= 10"
   ],
   "dependencies": {
-    "@lobehub/chat-plugin-sdk": "^1",
+    "@lobehub/chat-plugin-sdk": "^1.15.1",
     "@lobehub/chat-plugins-gateway": "^1",
+    "@lobehub/ui": "latest",
     "@types/react": "18.2.21",
     "@types/react-dom": "18.2.7",
     "antd": "^5",
+    "antd-style": "^3",
+    "dayjs": "^1",
     "next": "^13.4.19",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -47,21 +50,17 @@
   },
   "devDependencies": {
     "@lobehub/lint": "latest",
-    "@lobehub/ui": "latest",
     "@vercel/node": "^2",
     "@vitest/coverage-v8": "latest",
-    "babel-plugin-antd-style": "^1.0.4",
     "commitlint": "^17",
     "cross-env": "^7",
     "eslint": "^8",
     "father": "^4.3.1",
     "husky": "^8",
     "lint-staged": "^13",
-    "lucide-react": "latest",
     "prettier": "^3",
     "semantic-release": "^21",
     "typescript": "^5",
-    "vercel": "^32",
     "vitest": "latest"
   }
 }
