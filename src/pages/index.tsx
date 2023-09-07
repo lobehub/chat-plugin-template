@@ -1,4 +1,4 @@
-import { fetchPluginMessage } from '@lobehub/chat-plugin-sdk';
+import { fetchPluginMessage } from '@lobehub/chat-plugin-sdk/client';
 import { Card } from 'antd';
 import { createStyles } from 'antd-style';
 import dayjs from 'dayjs';
