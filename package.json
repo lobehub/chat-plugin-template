@@ -11,7 +11,6 @@
     "dev": "next dev -p 3400",
     "lint": "eslint \"{src,api,docs}/**/*.{js,jsx,ts,tsx}\" --fix",
     "lint:md": "remark . --quiet --frail --output",
-    "lint:prettier": "prettier --check \"api/**/*\" --end-of-line auto",
     "lint:style": "stylelint \"src/**/*.{js,jsx,ts,tsx}\" --fix",
     "prepare": "husky install",
     "prepublishOnly": "npm run doctor && npm run build",
