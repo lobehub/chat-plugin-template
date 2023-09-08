@@ -2,12 +2,11 @@
   "compilerOptions": {
     "module": "CommonJS",
     "target": "ES5",
-    "lib": ["esnext", "DOM"],
+    "lib": ["dom", "dom.iterable", "esnext"],
     "sourceMap": true,
     "skipDefaultLibCheck": true,
-    "jsx": "preserve",
+    "jsx": "react-jsx",
     "baseUrl": ".",
-    "types": ["node"],
     "allowSyntheticDefaultImports": true,
     "moduleResolution": "node",
     "forceConsistentCasingInFileNames": true,
@@ -19,12 +18,7 @@
     "paths": {
       "@/*": ["src/*"]
     },
-    "allowJs": true,
-    "noEmit": true,
-    "incremental": true,
-    "esModuleInterop": true,
-    "isolatedModules": true
+    "types": ["vitest/globals"]
   },
-  "exclude": ["node_modules"],
-  "include": ["src", "next-env.d.ts"]
+  "include": ["src", "next-env.d.ts", "*.ts"]
 }
