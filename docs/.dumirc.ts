@@ -21,7 +21,7 @@ const themeConfig = {
     },
   ],
   footer: 'Made with 🤯 by LobeHub',
-  name: 'Realtime Weather',
+  name: 'Project Template',
   socialLinks: {
     discord: 'https://discord.gg/AYFPHvv2jT',
     github: homepage,
@@ -52,5 +52,5 @@ export default defineConfig({
   ],
 
   themeConfig,
-  title: 'RealTime Weather - Lobe Chat Plugin',
+  title: 'Project Template - Lobe Chat Plugin',
 });
