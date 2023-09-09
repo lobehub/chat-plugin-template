@@ -6,7 +6,7 @@
 <img height="120" src="https://gw.alipayobjects.com/zos/kitchen/qJ3l3EPsdW/split.svg">
 <img height="120" src="https://registry.npmmirror.com/@lobehub/assets-emoji/1.3.0/files/assets/package.webp">
 
-<h1>Template<br/><sup>LobeChat Plugin</sup></h1>
+<h1>Project Template<br/><sup>LobeChat Plugin</sup></h1>
 
 This is the plugin template for LobeChat plugin development, see detail on [template usage](https://chat-plugin-sdk.lobehub.com/guides/template)
 
@@ -32,6 +32,7 @@ This is the plugin template for LobeChat plugin development, see detail on [temp
 
 #### TOC
 
+- [🌟 Features](#-features)
 - [🤯 Usage](#-usage)
 - [⌨️ Local Development](#️-local-development)
 - [🤝 Contributing](#-contributing)
@@ -39,6 +40,13 @@ This is the plugin template for LobeChat plugin development, see detail on [temp
 ####
 
 </details>
+
+## 🌟 Features
+
+- 💨 **Quick start with low learning curve**: This template provides a quick start option, allowing users to get started quickly. Additionally, the template includes detailed documentation to help users understand and use the features easily.
+- 📚 **Beautiful and comprehensive documentation**: The template aims for aesthetics, with carefully designed interfaces and layouts that make the documentation more intuitive, readable, and user-friendly. Moreover, the template offers a wide range of styles and components for users to customize the appearance and functionality of their documentation.
+- 🔄 **Complete workflow, automatic publishing and partner updates**: The template provides a complete workflow, including automatic publishing and automatic partner updates. Users can easily complete the publishing and updating tasks by following the specified steps.
+- 🖱️ **One-click document generation**: The template offers a one-click document generation feature, allowing users to quickly generate complete documentation with simple operations. This saves users a significant amount of time and effort, allowing them to focus on improving the content and quality of their documentation.
 
 ## 🤯 Usage
 
