@@ -8,7 +8,7 @@
 
 <h1>Project Template<br/><sup>LobeChat Plugin</sup></h1>
 
-This is the plugin template for LobeChat plugin development, see detail on [template usage](https://chat-plugin-sdk.lobehub.com/guides/template)
+This is the plugin template for LobeChat plugin development
 
 [Changelog](./CHANGELOG.md) · [Report Bug][issues-url] · [Request Feature][issues-url]
 
@@ -50,7 +50,7 @@ This is the plugin template for LobeChat plugin development, see detail on [temp
 
 ## 🤯 Usage
 
-This is a function calling plugin for [Lobe Chat](https://github.com/lobehub/lobe-chat), you can install it in plugin setting page.
+see detail on [template usage](https://chat-plugin-sdk.lobehub.com/guides/template)
 
 <div align="right">
 

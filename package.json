@@ -6,9 +6,11 @@
   "homepage": "https://github.com/lobehub/chat-plugin-template",
   "repository": "https://github.com/lobehub/chat-plugin-template.git",
   "scripts": {
-    "build": "next build",
+    "build": "npm run docs:build && next build",
     "ci": "npm run lint && npm run type-check",
     "dev": "next dev -p 3400",
+    "docs:build": "cd docs && npm run build",
+    "docs:dev": "npm run dev --prefix ./docs",
     "lint": "eslint \"{src,api,docs}/**/*.{js,jsx,ts,tsx}\" --fix",
     "lint:md": "remark . --quiet --frail --output",
     "lint:style": "stylelint \"src/**/*.{js,jsx,ts,tsx}\" --fix",
@@ -46,13 +48,13 @@
     "not ie <= 10"
   ],
   "dependencies": {
-    "@lobehub/chat-plugin-sdk": "^1",
+    "@lobehub/chat-plugin-sdk": "^1.17.7",
     "@lobehub/chat-plugins-gateway": "^1",
     "@lobehub/ui": "latest",
     "antd": "^5",
     "antd-style": "^3",
     "dayjs": "^1",
-    "next": "13",
+    "next": "13.4.7",
     "react": "^18",
     "react-dom": "^18",
     "react-layout-kit": "^1"
