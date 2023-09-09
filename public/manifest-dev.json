@@ -23,7 +23,7 @@
     }
   ],
   "gateway": "http://localhost:3400/api/gateway",
-  "identifier": "chat-plugin-template",
+  "identifier": "plugin-identifier",
   "ui": {
     "url": "http://localhost:3400",
     "height": 200
