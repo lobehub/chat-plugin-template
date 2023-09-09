@@ -2,6 +2,31 @@
 
 # Changelog
 
+## [Version 1.1.0](https://github.com/lobehub/chat-plugin-template/compare/v1.0.0...v1.1.0)
+
+<sup>Released on **2023-09-09**</sup>
+
+#### ✨ Features
+
+- **misc**: 新增展示文档.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: 新增展示文档 ([fdff07f](https://github.com/lobehub/chat-plugin-template/commit/fdff07f))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## Version 1.0.0
 
 <sup>Released on **2023-09-08**</sup>
