@@ -2,7 +2,7 @@
 
 # Changelog
 
-## [Version 1.1.0](https://github.com/lobehub/chat-plugin-template/compare/v1.0.0...v1.1.0)
+## [Version 1.1.0](https://github.com/lobehub/chat-plugin-template/compare/v1.0.0...v1.1.0)
 
 <sup>Released on **2023-09-09**</sup>
 
@@ -27,7 +27,7 @@
 
 </div>
 
-## Version 1.0.0
+## Version 1.0.0
 
 <sup>Released on **2023-09-08**</sup>
 
