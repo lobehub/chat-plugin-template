@@ -56,14 +56,15 @@ This is the plugin template for LobeChat plugin development
 
 ## 🤯 Usage
 
-Plugins provide a means to extend the \[Function Calling]\[fc-link] capabilities of LobeChat. They can be used to introduce new function calls, and even new ways to render message results. If you are interested in plugin development, please refer to our [📘 Plugin Development Guide](https://github.com/lobehub/lobe-chat/wiki/Plugin-Development) in the Wiki.
-
 > **Important**\
 > See detail on [📘 Template usage](https://chat-plugin-sdk.lobehub.com/guides/template)
 
-- \[@lobehub/lobe-chat-plugins]\[lobe-chat-plugins]: This is the plugin index for LobeChat. It accesses index.json from this repository to display a list of available plugins for LobeChat to the user.
-- [@lobehub/chat-plugin-sdk][chat-plugin-sdk]: The LobeChat Plugin SDK assists you in creating exceptional chat plugins for Lobe Chat.
-- [@lobehub/chat-plugins-gateway][chat-plugins-gateway]: The LobeChat Plugins Gateway is a backend service that serves as a gateway for LobeChat plugins. We deploy this service using Vercel. The primary API POST /api/v1/runner is deployed as an Edge Function.
+> **Note**\
+> Plugins provide a means to extend the [Function Calling][fc-link] capabilities of LobeChat. They can be used to introduce new function calls, and even new ways to render message results. If you are interested in plugin development, please refer to our [📘 Plugin Development Guide](https://github.com/lobehub/lobe-chat/wiki/Plugin-Development) in the Wiki.
+>
+> - [@lobehub/lobe-chat-plugins][lobe-chat-plugins]: This is the plugin index for LobeChat. It accesses index.json from this repository to display a list of available plugins for LobeChat to the user.
+> - [@lobehub/chat-plugin-sdk][chat-plugin-sdk]: The LobeChat Plugin SDK assists you in creating exceptional chat plugins for Lobe Chat.
+> - [@lobehub/chat-plugins-gateway][chat-plugins-gateway]: The LobeChat Plugins Gateway is a backend service that serves as a gateway for LobeChat plugins. We deploy this service using Vercel. The primary API POST /api/v1/runner is deployed as an Edge Function.
 
 | Official Plugin                                 | Description                                                                                                                                       |
 | ----------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -142,6 +143,7 @@ This project is [MIT](./LICENSE) licensed.
 [chat-plugin-search-engine]: https://github.com/lobehub/chat-plugin-search-engine
 [chat-plugin-web-crawler]: https://github.com/lobehub/chat-plugin-web-crawler
 [chat-plugins-gateway]: https://github.com/lobehub/chat-plugins-gateway
+[fc-link]: https://sspai.com/post/81986
 [github-action-release-link]: https://github.com/lobehub/chat-plugin-template/actions/workflows/release.yml
 [github-action-release-shield]: https://img.shields.io/github/actions/workflow/status/lobehub/chat-plugin-template/release.yml?label=release&labelColor=black&logo=githubactions&logoColor=white&style=flat-square
 [github-action-test-link]: https://github.com/lobehub/chat-plugin-template/actions/workflows/test.yml
@@ -164,6 +166,7 @@ This project is [MIT](./LICENSE) licensed.
 [github-releasedate-shield]: https://img.shields.io/github/release-date/lobehub/chat-plugin-template?labelColor=black&style=flat-square
 [github-stars-link]: https://github.com/lobehub/chat-plugin-template/network/stargazers
 [github-stars-shield]: https://img.shields.io/github/stars/lobehub/chat-plugin-template?color=ffcb47&labelColor=black&style=flat-square
+[lobe-chat-plugins]: https://github.com/lobehub/lobe-chat-plugins
 [pr-welcome-link]: https://github.com/lobehub/chat-plugin-template/pulls
 [pr-welcome-shield]: https://img.shields.io/badge/%F0%9F%A4%AF%20PR%20WELCOME-%E2%86%92-ffcb47?labelColor=black&style=for-the-badge
 [profile-url]: https://github.com/lobehub
