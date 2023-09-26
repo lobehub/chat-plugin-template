@@ -6,7 +6,7 @@
 <img height="120" src="https://gw.alipayobjects.com/zos/kitchen/qJ3l3EPsdW/split.svg">
 <img height="120" src="https://registry.npmmirror.com/@lobehub/assets-emoji-anim/1.0.0/files/assets/rocket.webp">
 
-<h1>Project Template<br/><sup>LobeChat Plugin</sup></h1>
+<h1>Plugin Template<br/><sup>LobeChat Plugin</sup></h1>
 
 This is the plugin template for LobeChat plugin development
 
