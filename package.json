@@ -5,12 +5,16 @@
   "description": "This is the plugin template for LobeChat plugin development",
   "homepage": "https://github.com/lobehub/chat-plugin-template",
   "repository": "https://github.com/lobehub/chat-plugin-template.git",
+  "workspaces": [
+    "docs/*",
+    "./*"
+  ],
   "scripts": {
     "build": "npm run docs:build && next build",
     "ci": "npm run lint && npm run type-check",
     "dev": "next dev -p 3400",
     "docs:build": "cd docs && npm run build",
-    "docs:dev": "npm run dev --prefix ./docs",
+    "docs:dev": "cd docs && npm run dev",
     "lint": "eslint \"{src,api,docs}/**/*.{js,jsx,ts,tsx}\" --fix",
     "lint:md": "remark . --quiet --frail --output",
     "lint:style": "stylelint \"src/**/*.{js,jsx,ts,tsx}\" --fix",
@@ -71,6 +75,7 @@
     "eslint": "^8",
     "father": "4.3.1",
     "husky": "^8",
+    "lerna": "^7",
     "lint-staged": "^13",
     "prettier": "^3",
     "remark": "^14",

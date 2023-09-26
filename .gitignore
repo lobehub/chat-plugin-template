@@ -42,8 +42,11 @@ test-output
 
 # misc
 # add other ignore file below
-build
 .vercel
+.next
+build
 public/dist
 docs-dist
-.next
+bun.lockb
+docs/.dumi/*
+public/docs
