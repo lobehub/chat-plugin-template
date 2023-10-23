@@ -15,7 +15,7 @@ export default async (req: Request) => {
   const clothes = gender === 'man' ? manClothes : womanClothes;
 
   const result: ResponseData = {
-    clothes: clothes[mood] || [],
+    clothes: mood ? clothes[mood] : Object.values(clothes).flat(),
     mood,
     today: Date.now(),
   };

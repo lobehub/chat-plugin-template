@@ -23,7 +23,7 @@ const Render = memo<Partial<ResponseData>>(({ mood, clothes, today }) => {
       </Flexbox>
       <Flexbox gap={8}>
         推荐衣物
-        <Flexbox gap={12} horizontal>
+        <Flexbox gap={12} horizontal style={{ overflow: 'scroll' }}>
           {clothes?.map((item) => (
             <Card key={item.name} size={'small'} title={item.name}>
               {item.description}
