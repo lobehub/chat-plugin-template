@@ -2,6 +2,31 @@
 
 # Changelog
 
+## [Version 1.2.0](https://github.com/lobehub/chat-plugin-template/compare/v1.1.0...v1.2.0)
+
+<sup>Released on **2023-10-23**</sup>
+
+#### ✨ Features
+
+- **misc**: Add standalone type.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Add standalone type ([3a432f5](https://github.com/lobehub/chat-plugin-template/commit/3a432f5))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 1.1.0](https://github.com/lobehub/chat-plugin-template/compare/v1.0.0...v1.1.0)
 
 <sup>Released on **2023-09-09**</sup>
