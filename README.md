@@ -10,6 +10,7 @@
 
 This is the plugin template for LobeChat plugin development
 
+[![][🤯-🧩-lobehub-shield]][🤯-🧩-lobehub-link]
 [![][github-release-shield]][github-release-link]
 [![][github-releasedate-shield]][github-releasedate-link]
 [![][github-action-test-shield]][github-action-test-link]
@@ -135,6 +136,8 @@ This project is [MIT](./LICENSE) licensed.
 
 <!-- LINK GROUP -->
 
+[🤯-🧩-lobehub-link]: https://github.com/lobehub/lobe-chat-plugins
+[🤯-🧩-lobehub-shield]: https://img.shields.io/badge/%F0%9F%A4%AF%20%26%20%F0%9F%A7%A9%20LobeHub-Plugin-95f3d9?labelColor=black&style=flat-square
 [back-to-top]: https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square
 [bun-link]: https://bun.sh
 [bun-shield]: https://img.shields.io/badge/-speedup%20with%20bun-black?logo=bun&style=for-the-badge
