@@ -1,8 +1,4 @@
-import {
-  fetchPluginMessage,
-  postToFillPluginContent,
-  useOnStandalonePluginInit,
-} from '@lobehub/chat-plugin-sdk/client';
+import { lobeChat } from '@lobehub/chat-plugin-sdk/client';
 import { Button } from 'antd';
 import { memo, useEffect, useState } from 'react';
 import { Center } from 'react-layout-kit';
@@ -17,22 +13,24 @@ const Render = memo(() => {
 
   // 初始化时从主应用同步状态
   useEffect(() => {
-    fetchPluginMessage().then(setData);
+    lobeChat.getPluginMessage().then(setData);
   }, []);
 
   // 记录请求参数
   const [payload, setPayload] = useState<any>();
 
-  useOnStandalonePluginInit<ResponseData>((payload) => {
-    if (payload.func === 'recommendClothes') {
-      setPayload(payload.args);
-    }
-  });
+  useEffect(() => {
+    lobeChat.getPluginPayload().then((payload) => {
+      if (payload.name === 'recommendClothes') {
+        setPayload(payload.arguments);
+      }
+    });
+  }, []);
 
   const fetchData = async () => {
     const data = await fetchClothes(payload);
     setData(data);
-    postToFillPluginContent(data);
+    lobeChat.setPluginMessage(data);
   };
 
   return data ? (

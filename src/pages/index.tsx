@@ -1,4 +1,4 @@
-import { fetchPluginMessage } from '@lobehub/chat-plugin-sdk/client';
+import { lobeChat } from '@lobehub/chat-plugin-sdk/client';
 import { memo, useEffect, useState } from 'react';
 
 import Data from '@/components/Render';
@@ -8,7 +8,7 @@ const Render = memo(() => {
   const [data, setData] = useState<ResponseData>();
 
   useEffect(() => {
-    fetchPluginMessage().then((e: ResponseData) => {
+    lobeChat.getPluginMessage().then((e: ResponseData) => {
       setData(e);
     });
   }, []);
