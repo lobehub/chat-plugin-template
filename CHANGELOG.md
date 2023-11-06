@@ -2,6 +2,31 @@
 
 # Changelog
 
+### [Version 1.2.1](https://github.com/lobehub/chat-plugin-template/compare/v1.2.0...v1.2.1)
+
+<sup>Released on **2023-11-06**</sup>
+
+#### ♻ Code Refactoring
+
+- **misc**: Refactor to use new lobeChat api.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### Code refactoring
+
+- **misc**: Refactor to use new lobeChat api ([1f0a533](https://github.com/lobehub/chat-plugin-template/commit/1f0a533))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 1.2.0](https://github.com/lobehub/chat-plugin-template/compare/v1.1.0...v1.2.0)
 
 <sup>Released on **2023-10-23**</sup>
