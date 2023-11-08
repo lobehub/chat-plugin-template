@@ -72,7 +72,7 @@
     "commitlint": "^17",
     "cross-env": "^7",
     "eslint": "^8",
-    "father": "4.3.1",
+    "father": "4.3.7",
     "husky": "^8",
     "lint-staged": "^13",
     "prettier": "^3",
