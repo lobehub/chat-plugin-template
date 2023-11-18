@@ -67,7 +67,7 @@
     "@commitlint/cli": "^18",
     "@lobehub/lint": "latest",
     "@types/react": "18",
-    "@vercel/node": "^2",
+    "@vercel/node": "^3.0.0",
     "@vitest/coverage-v8": "latest",
     "commitlint": "^18",
     "cross-env": "^7",
