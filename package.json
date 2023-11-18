@@ -64,7 +64,7 @@
     "react-layout-kit": "^1"
   },
   "devDependencies": {
-    "@commitlint/cli": "^17",
+    "@commitlint/cli": "^18.0.0",
     "@lobehub/lint": "latest",
     "@types/react": "18.2.28",
     "@vercel/node": "^2",
