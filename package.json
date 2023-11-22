@@ -52,7 +52,7 @@
     "not ie <= 10"
   ],
   "dependencies": {
-    "@lobehub/chat-plugin-sdk": "^",
+    "@lobehub/chat-plugin-sdk": "^1",
     "@lobehub/chat-plugins-gateway": "^1",
     "@lobehub/ui": "latest",
     "antd": "^5",
