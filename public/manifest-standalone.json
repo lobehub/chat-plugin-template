@@ -1,4 +1,5 @@
 {
+  "$schema": "../node_modules/@lobehub/chat-plugin-sdk/schema.json",
   "api": [
     {
       "url": "http://localhost:3400/api/clothes",
@@ -23,6 +24,12 @@
     }
   ],
   "identifier": "plugin-identifier-standalone",
+  "meta": {
+    "avatar": "🚀",
+    "tags": ["template"],
+    "title": "Chat Plugin Template",
+    "description": "This is the plugin template for LobeChat plugin development"
+  },
   "type": "standalone",
   "ui": {
     "url": "http://localhost:3400/iframe",

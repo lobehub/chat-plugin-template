@@ -25,6 +25,12 @@
   ],
   "gateway": "http://localhost:3400/api/gateway",
   "identifier": "plugin-identifier",
+  "meta": {
+    "avatar": "🚀",
+    "tags": ["template"],
+    "title": "Chat Plugin Template",
+    "description": "This is the plugin template for LobeChat plugin development"
+  },
   "ui": {
     "url": "http://localhost:3400",
     "height": 200
