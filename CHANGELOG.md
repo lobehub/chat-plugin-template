@@ -2,6 +2,31 @@
 
 # Changelog
 
+## [Version 1.4.0](https://github.com/lobehub/chat-plugin-template/compare/v1.3.0...v1.4.0)
+
+<sup>Released on **2023-12-02**</sup>
+
+#### ✨ Features
+
+- **misc**: Add meta into manifest.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Add meta into manifest ([48da33e](https://github.com/lobehub/chat-plugin-template/commit/48da33e))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 1.3.0](https://github.com/lobehub/chat-plugin-template/compare/v1.2.1...v1.3.0)
 
 <sup>Released on **2023-11-16**</sup>
