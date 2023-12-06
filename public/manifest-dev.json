@@ -9,7 +9,7 @@
         "properties": {
           "mood": {
             "description": "用户当前的心情，可选值有：开心（happy）, 难过（sad）,生气 （anger）,害怕（fear）,惊喜（ surprise）,厌恶 （disgust）",
-            "enums": ["happy", "sad", "anger", "fear", "surprise", "disgust"],
+            "enum": ["happy", "sad", "anger", "fear", "surprise", "disgust"],
             "type": "string"
           },
           "gender": {
@@ -23,7 +23,10 @@
       }
     }
   ],
+  "author": "LobeHub",
+  "createdAt": "2023-09-03",
   "gateway": "http://localhost:3400/api/gateway",
+  "homepage": "https://github.com/lobehub/chat-plugin-template",
   "identifier": "plugin-identifier",
   "meta": {
     "avatar": "🚀",
