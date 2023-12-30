@@ -2,6 +2,39 @@
 
 # Changelog
 
+## [Version 1.5.0](https://github.com/lobehub/chat-plugin-template/compare/v1.4.0...v1.5.0)
+
+<sup>Released on **2023-12-30**</sup>
+
+#### ✨ Features
+
+- **misc**: Support markdown type.
+
+#### 💄 Styles
+
+- **misc**: Improve manifest info.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's improved
+
+- **misc**: Support markdown type ([0a6e154](https://github.com/lobehub/chat-plugin-template/commit/0a6e154))
+
+#### Styles
+
+- **misc**: Improve manifest info ([0f51c54](https://github.com/lobehub/chat-plugin-template/commit/0f51c54))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 1.4.0](https://github.com/lobehub/chat-plugin-template/compare/v1.3.0...v1.4.0)
 
 <sup>Released on **2023-12-02**</sup>
