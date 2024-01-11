@@ -2,6 +2,32 @@
 
 # Changelog
 
+### [Version 1.5.1](https://github.com/lobehub/chat-plugin-template/compare/v1.5.0...v1.5.1)
+
+<sup>Released on **2024-01-11**</sup>
+
+#### 🐛 Bug Fixes
+
+- **misc**: Fix gateway runtime, fix gateway runtime.
+
+<br/>
+
+<details>
+<summary><kbd>Improvements and Fixes</kbd></summary>
+
+#### What's fixed
+
+- **misc**: Fix gateway runtime ([f181fa3](https://github.com/lobehub/chat-plugin-template/commit/f181fa3))
+- **misc**: Fix gateway runtime, closes [#24](https://github.com/lobehub/chat-plugin-template/issues/24) ([8b1a443](https://github.com/lobehub/chat-plugin-template/commit/8b1a443))
+
+</details>
+
+<div align="right">
+
+[![](https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square)](#readme-top)
+
+</div>
+
 ## [Version 1.5.0](https://github.com/lobehub/chat-plugin-template/compare/v1.4.0...v1.5.0)
 
 <sup>Released on **2023-12-30**</sup>
