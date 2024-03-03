@@ -69,7 +69,7 @@
     "@types/react": "18",
     "@vercel/node": "^2",
     "@vitest/coverage-v8": "latest",
-    "commitlint": "^18",
+    "commitlint": "^19.0.0",
     "cross-env": "^7",
     "eslint": "^8",
     "father": "4.3.1",
