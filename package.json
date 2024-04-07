@@ -71,7 +71,7 @@
     "@vitest/coverage-v8": "latest",
     "commitlint": "^18",
     "cross-env": "^7",
-    "eslint": "^8",
+    "eslint": "^9.0.0",
     "father": "4.3.1",
     "husky": "^8",
     "lint-staged": "^15",
