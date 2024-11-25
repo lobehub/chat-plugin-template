@@ -1,10 +1,10 @@
 {
-  "name": "plugin-identifier",
+  "name": "bingsearch-identifier",
   "version": "1.5.1",
   "private": true,
-  "description": "This is the plugin template for LobeChat plugin development",
-  "homepage": "https://github.com/lobehub/chat-plugin-template",
-  "repository": "https://github.com/lobehub/chat-plugin-template.git",
+  "description": "This is the plugin Bingsearch for LobeChat plugin development",
+  "homepage": "https://github.com/FineHow/Bingsearch-Plugin",
+  "repository": "https://github.com/FineHow/Bingsearch-Plugin.git",
   "workspaces": [
     "docs/*",
     "./*"
@@ -19,10 +19,9 @@
     "lint:md": "remark . --quiet --frail --output",
     "lint:style": "stylelint \"src/**/*.{js,jsx,ts,tsx}\" --fix",
     "prepare": "husky install",
-    "prepublishOnly": "npm run doctor && npm run build",
-    "prettier": "prettier -c --write \"**/**\"",
+    "prepublishOnly": "npm run build",
     "release": "semantic-release",
-    "start": "next start",
+    "start": "next build&&next start",
     "test": "vitest --passWithNoTests",
     "test:coverage": "vitest --coverage  --passWithNoTests",
     "type-check": "tsc --noEmit"
@@ -59,8 +58,8 @@
     "antd-style": "^3",
     "dayjs": "^1",
     "next": "13.4.7",
-    "react": "^18",
-    "react-dom": "^18",
+    "react": ">=18",
+    "react-dom": ">=18",
     "react-layout-kit": "^1"
   },
   "devDependencies": {
@@ -79,7 +78,8 @@
     "remark": "^14",
     "remark-cli": "^11",
     "semantic-release": "^21",
-    "stylelint": "^15",
+    "stylelint": "^16.10.0",
+    "stylelint-config-recommended": "^14.0.1",
     "typescript": "^5",
     "vitest": "latest"
   },

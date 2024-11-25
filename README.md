@@ -6,9 +6,9 @@
 <img height="120" src="https://gw.alipayobjects.com/zos/kitchen/qJ3l3EPsdW/split.svg">
 <img height="120" src="https://registry.npmmirror.com/@lobehub/assets-emoji-anim/1.0.0/files/assets/rocket.webp">
 
-<h1>Plugin Template<br/><sup>LobeChat Plugin</sup></h1>
+<h1>Plugin Bingsearch<br/><sup>LobeChat Plugin</sup></h1>
 
-This is the plugin template for LobeChat plugin development
+This is the plugin Bingsearch for LobeChat plugin development
 
 [![][🤯-🧩-lobehub-shield]][🤯-🧩-lobehub-link]
 [![][github-release-shield]][github-release-link]
@@ -44,10 +44,10 @@ This is the plugin template for LobeChat plugin development
 
 ## 🌟 Features
 
-- [x] 💨 **Quick start with low learning curve**: This template provides a quick start option, allowing users to get started quickly. Additionally, the template includes detailed documentation to help users understand and use the features easily.
-- [x] 📚 **Beautiful and comprehensive documentation**: The template aims for aesthetics, with carefully designed interfaces and layouts that make the documentation more intuitive, readable, and user-friendly. Moreover, the template offers a wide range of styles and components for users to customize the appearance and functionality of their documentation.
-- [x] 🔄 **Complete workflow, automatic publishing and partner updates**: The template provides a complete workflow, including automatic publishing and automatic partner updates. Users can easily complete the publishing and updating tasks by following the specified steps.
-- [x] 🖱️ **One-click document generation**: The template offers a one-click document generation feature, allowing users to quickly generate complete documentation with simple operations. This saves users a significant amount of time and effort, allowing them to focus on improving the content and quality of their documentation.
+- [x] 💨 **Quick start with low learning curve**: This Bingsearch provides a quick start option, allowing users to get started quickly. Additionally, the Bingsearch includes detailed documentation to help users understand and use the features easily.
+- [x] 📚 **Beautiful and comprehensive documentation**: The Bingsearch aims for aesthetics, with carefully designed interfaces and layouts that make the documentation more intuitive, readable, and user-friendly. Moreover, the Bingsearch offers a wide range of styles and components for users to customize the appearance and functionality of their documentation.
+- [x] 🔄 **Complete workflow, automatic publishing and partner updates**: The Bingsearch provides a complete workflow, including automatic publishing and automatic partner updates. Users can easily complete the publishing and updating tasks by following the specified steps.
+- [x] 🖱️ **One-click document generation**: The Bingsearch offers a one-click document generation feature, allowing users to quickly generate complete documentation with simple operations. This saves users a significant amount of time and effort, allowing them to focus on improving the content and quality of their documentation.
 
 <div align="right">
 
@@ -57,10 +57,10 @@ This is the plugin template for LobeChat plugin development
 
 ## 🤯 Usage
 
-> [!IMPORTANT]\
-> See detail on [📘 Template usage](https://chat-plugin-sdk.lobehub.com/guides/template)
+> \[!IMPORTANT]\
+> See detail on [📘 Bingsearch usage](https://chat-plugin-sdk.lobehub.com/guides/Bingsearch)
 
-> [!Note]\
+> \[!Note]\
 > Plugins provide a means to extend the [Function Calling][fc-link] capabilities of LobeChat. They can be used to introduce new function calls, and even new ways to render message results. If you are interested in plugin development, please refer to our [📘 Plugin Development Guide](https://github.com/lobehub/lobe-chat/wiki/Plugin-Development) in the Wiki.
 >
 > - [@lobehub/lobe-chat-plugins][lobe-chat-plugins]: This is the plugin index for LobeChat. It accesses index.json from this repository to display a list of available plugins for LobeChat to the user.
@@ -90,8 +90,8 @@ Or clone it for local development:
 [![][bun-shield]][bun-link]
 
 ```bash
-$ git clone https://github.com/lobehub/chat-plugin-template.git
-$ cd chat-plugin-template
+$ git clone https://github.com/FineHow/Bingsearch-Plugin.git
+$ cd chat-plugin-Bingsearch
 $ bun install
 $ bun dev
 ```
@@ -147,29 +147,29 @@ This project is [MIT](./LICENSE) licensed.
 [chat-plugin-web-crawler]: https://github.com/lobehub/chat-plugin-web-crawler
 [chat-plugins-gateway]: https://github.com/lobehub/chat-plugins-gateway
 [fc-link]: https://sspai.com/post/81986
-[github-action-release-link]: https://github.com/lobehub/chat-plugin-template/actions/workflows/release.yml
-[github-action-release-shield]: https://img.shields.io/github/actions/workflow/status/lobehub/chat-plugin-template/release.yml?label=release&labelColor=black&logo=githubactions&logoColor=white&style=flat-square
-[github-action-test-link]: https://github.com/lobehub/chat-plugin-template/actions/workflows/test.yml
-[github-action-test-shield]: https://img.shields.io/github/actions/workflow/status/lobehub/chat-plugin-template/test.yml?label=test&labelColor=black&logo=githubactions&logoColor=white&style=flat-square
-[github-codespace-link]: https://codespaces.new/lobehub/chat-plugin-template
+[github-action-release-link]: https://github.com/FineHow/Bingsearch-Plugin/actions/workflows/release.yml
+[github-action-release-shield]: https://img.shields.io/github/actions/workflow/status/FineHow/Bingsearch-Plugin/release.yml?label=release&labelColor=black&logo=githubactions&logoColor=white&style=flat-square
+[github-action-test-link]: https://github.com/FineHow/Bingsearch-Plugin/actions/workflows/test.yml
+[github-action-test-shield]: https://img.shields.io/github/actions/workflow/status/FineHow/Bingsearch-Plugin/test.yml?label=test&labelColor=black&logo=githubactions&logoColor=white&style=flat-square
+[github-codespace-link]: https://codespaces.new/FineHow/Bingsearch-Plugin
 [github-codespace-shield]: https://github.com/codespaces/badge.svg
-[github-contrib-link]: https://github.com/lobehub/chat-plugin-template/graphs/contributors
-[github-contrib-shield]: https://contrib.rocks/image?repo=lobehub%2Fchat-plugin-template
-[github-contributors-link]: https://github.com/lobehub/chat-plugin-template/graphs/contributors
-[github-contributors-shield]: https://img.shields.io/github/contributors/lobehub/chat-plugin-template?color=c4f042&labelColor=black&style=flat-square
-[github-forks-link]: https://github.com/lobehub/chat-plugin-template/network/members
-[github-forks-shield]: https://img.shields.io/github/forks/lobehub/chat-plugin-template?color=8ae8ff&labelColor=black&style=flat-square
-[github-issues-link]: https://github.com/lobehub/chat-plugin-template/issues
-[github-issues-shield]: https://img.shields.io/github/issues/lobehub/chat-plugin-template?color=ff80eb&labelColor=black&style=flat-square
-[github-license-link]: https://github.com/lobehub/chat-plugin-template/blob/main/LICENSE
-[github-license-shield]: https://img.shields.io/github/license/lobehub/chat-plugin-template?color=white&labelColor=black&style=flat-square
-[github-release-link]: https://github.com/lobehub/chat-plugin-template/releases
-[github-release-shield]: https://img.shields.io/github/v/release/lobehub/chat-plugin-template?color=369eff&labelColor=black&logo=github&style=flat-square
-[github-releasedate-link]: https://github.com/lobehub/chat-plugin-template/releases
-[github-releasedate-shield]: https://img.shields.io/github/release-date/lobehub/chat-plugin-template?labelColor=black&style=flat-square
-[github-stars-link]: https://github.com/lobehub/chat-plugin-template/network/stargazers
-[github-stars-shield]: https://img.shields.io/github/stars/lobehub/chat-plugin-template?color=ffcb47&labelColor=black&style=flat-square
+[github-contrib-link]: https://github.com/FineHow/Bingsearch-Plugin/graphs/contributors
+[github-contrib-shield]: https://contrib.rocks/image?repo=lobehub%2Fchat-plugin-Bingsearch
+[github-contributors-link]: https://github.com/FineHow/Bingsearch-Plugin/graphs/contributors
+[github-contributors-shield]: https://img.shields.io/github/contributors/FineHow/Bingsearch-Plugin?color=c4f042&labelColor=black&style=flat-square
+[github-forks-link]: https://github.com/FineHow/Bingsearch-Plugin/network/members
+[github-forks-shield]: https://img.shields.io/github/forks/FineHow/Bingsearch-Plugin?color=8ae8ff&labelColor=black&style=flat-square
+[github-issues-link]: https://github.com/FineHow/Bingsearch-Plugin/issues
+[github-issues-shield]: https://img.shields.io/github/issues/FineHow/Bingsearch-Plugin?color=ff80eb&labelColor=black&style=flat-square
+[github-license-link]: https://github.com/FineHow/Bingsearch-Plugin/blob/main/LICENSE
+[github-license-shield]: https://img.shields.io/github/license/FineHow/Bingsearch-Plugin?color=white&labelColor=black&style=flat-square
+[github-release-link]: https://github.com/FineHow/Bingsearch-Plugin/releases
+[github-release-shield]: https://img.shields.io/github/v/release/FineHow/Bingsearch-Plugin?color=369eff&labelColor=black&logo=github&style=flat-square
+[github-releasedate-link]: https://github.com/FineHow/Bingsearch-Plugin/releases
+[github-releasedate-shield]: https://img.shields.io/github/release-date/FineHow/Bingsearch-Plugin?labelColor=black&style=flat-square
+[github-stars-link]: https://github.com/FineHow/Bingsearch-Plugin/network/stargazers
+[github-stars-shield]: https://img.shields.io/github/stars/FineHow/Bingsearch-Plugin?color=ffcb47&labelColor=black&style=flat-square
 [lobe-chat-plugins]: https://github.com/lobehub/lobe-chat-plugins
-[pr-welcome-link]: https://github.com/lobehub/chat-plugin-template/pulls
+[pr-welcome-link]: https://github.com/FineHow/Bingsearch-Plugin/pulls
 [pr-welcome-shield]: https://img.shields.io/badge/%F0%9F%A4%AF%20PR%20WELCOME-%E2%86%92-ffcb47?labelColor=black&style=for-the-badge
 [profile-url]: https://github.com/lobehub

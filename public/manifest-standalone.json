@@ -25,12 +25,12 @@
   ],
   "author": "LobeHub",
   "createdAt": "2023-09-03",
-  "identifier": "plugin-identifier-standalone",
+  "identifier": "Bingsearch-identifier-standalone",
   "meta": {
     "avatar": "🚀",
-    "tags": ["template"],
-    "title": "Chat Plugin Template",
-    "description": "This is the plugin template for LobeChat plugin development"
+    "tags": ["Bingsearch"],
+    "title": "Chat Plugin Bingsearch",
+    "description": "This is the plugin Bingsearch for LobeChat plugin development"
   },
   "type": "standalone",
   "ui": {

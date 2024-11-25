@@ -21,7 +21,7 @@ const themeConfig = {
     },
   ],
   footer: 'Made with 🤯 by LobeHub',
-  name: 'Project Template',
+  name: 'Project Bingsearch',
   socialLinks: {
     discord: 'https://discord.gg/AYFPHvv2jT',
     github: homepage,
@@ -52,5 +52,5 @@ export default defineConfig({
   ],
 
   themeConfig,
-  title: 'Project Template - Lobe Chat Plugin',
+  title: 'Project Bingsearch - Lobe Chat Plugin',
 });

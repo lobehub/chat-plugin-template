@@ -2,37 +2,45 @@
   "$schema": "../node_modules/@lobehub/chat-plugin-sdk/schema.json",
   "api": [
     {
-      "url": "http://localhost:3400/api/clothes",
-      "name": "recommendClothes",
-      "description": "根据用户的心情，给用户推荐他有的衣服",
+      "name": "Bingsearch",
+      "url": "http://localhost:3400/api/v2",
+      "description": "Bingsearch——API",
       "parameters": {
         "properties": {
-          "mood": {
-            "description": "用户当前的心情，可选值有：开心（happy）, 难过（sad）,生气 （anger）,害怕（fear）,惊喜（ surprise）,厌恶 （disgust）",
-            "enum": ["happy", "sad", "anger", "fear", "surprise", "disgust"],
+          "query": {
+            "description": "搜索的文本内容",
             "type": "string"
-          },
-          "gender": {
-            "type": "string",
-            "enum": ["man", "woman"],
-            "description": "对话用户的性别，需要询问用户后才知道这个信息"
           }
         },
-        "required": ["mood", "gender"],
+        "required": ["query"],
         "type": "object"
       }
     }
   ],
-  "author": "LobeHub",
-  "createdAt": "2023-09-03",
+  "author": "ZWL_FineHow",
+  "createdAt": "2024-11-21",
   "gateway": "http://localhost:3400/api/gateway",
-  "homepage": "https://github.com/lobehub/chat-plugin-template",
-  "identifier": "plugin-identifier",
+  "homepage": "https://github.com/FineHow/Bingsearch-Plugin",
+  "identifier": "Bingsearch-identifier",
   "meta": {
     "avatar": "🚀",
-    "tags": ["template"],
-    "title": "Chat Plugin Template",
-    "description": "This is the plugin template for LobeChat plugin development"
+    "tags": ["Bingsearch"],
+    "title": "Bing联网搜索",
+    "description": "基于bing搜索引擎的互联网搜索助手"
+  },
+  "settings": {
+    "type": "object",
+    "required": ["BING_API_KEY"],
+    "properties": {
+      "BING_API_KEY": {
+        "title": "Bing API Key",
+        "description": "we use [Bing_API]as backend service | 该插件使用 Bing_API 作为搜索服务",
+        "type": "string",
+        "minLength": 32,
+        "maxLength": 32,
+        "format": "password"
+      }
+    }
   },
   "ui": {
     "url": "http://localhost:3400",
